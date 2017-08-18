@@ -40,7 +40,6 @@ allprojects {
     }
 }
 ```
-  
 Q3:
 ```
 java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
