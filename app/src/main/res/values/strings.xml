@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MaterialStepperViewDemo3</string>
+
+    <!-- Donate dialog -->
+    <string name="donate_dialog_title">Support me</string>
+    <string name="donate_dialog_message">If you like this library project and you are willing to support me, you can donate me via Alipay or PayPal.\n\nAlipay: fythonx\@gmail.com\nPayPal: Click PAYPAL button to open a new tab.</string>
+    <string name="doante_dialog_paypal_button">PayPal</string>
+
+    <!-- Navigation Menu -->
+    <string name="item_vertical_stepper">Vertical Stepper (Item View)</string>
+    <string name="item_vertical_stepper_adapter">Vertical Stepper (Adapter)</string>
+
+    <!-- Vertical Stepper View Sample Item -->
+    <string name="content_step_0">凱蘭崔爾敍述的序言講及索倫鑄造至尊魔戒以圖征服中土大陸，人類及精靈組成聯盟發動最後同盟戰役推翻了索倫。至尊魔戒落入埃西鐸手中。埃西鐸後來被半獸人所殺，至尊魔戒失落，在數千年後才被哈比人史麥戈所獲，因受魔戒的影響，史麥戈成為咕嚕。至尊魔戒急欲返回它的主人索倫手裡，於是離棄咕嚕，被哈比人比爾博·巴金斯所獲。\n在比爾博111歲生日當天，比爾博將至尊魔戒讓給堂姪佛羅多·巴金斯。比爾博好友甘道夫經過探查後發現那就是失落的至尊魔戒，由於索倫急欲取得至尊魔戒，甘道夫囑咐佛羅多要儘速帶同魔戒離開夏爾...</string>
+    <string name="content_step_1">甘道夫在摩瑞亞的橋上與炎魔對峙，甘道夫與炎魔墜落深淵。佛羅多從夢境中醒過來，與山姆繼續行程，他們被希望奪回魔戒的咕嚕襲擊，佛羅多及山姆制伏了他，佛羅多正需要一名嚮導引領他們前往魔多，於是讓他引路。\n在洛汗，薩魯曼那一支擄走梅里及皮聘的強獸人橫過草原向艾辛格進發，勒苟拉斯、金靂及亞拉岡尾隨追蹤。薩魯曼亦在洛汗國王身邊安插了葛力馬·巧言控制著希優頓。薩魯曼聚集大軍展開攻勢，沿途燒殺破壞，希優頓的兒子希優德戰死。希優頓之甥伊歐墨責難葛力馬，反被葛力馬驅逐，伊歐墨聚集了一些忠實的部下離去...</string>
+    <string name="content_step_2">講述哈比人德戈及史麥戈發現魔戒的過程，史麥戈殺死德戈並奪取魔戒，從此隱匿深山裡。\n返回現在，亞拉岡等人來到艾辛格，會合梅里及皮聘，薩魯曼想告知甘道夫魔多的事情時，被葛力馬‧巧言從後偷襲，跌下塔底死亡，真知晶球從袍內流出，皮聘拾起了薩魯曼的真知晶球，但被甘道夫取去。希優頓在返回伊多拉斯後舉行慶典。佛羅多等人逐漸靠近魔多，咕嚕的陰謀面也逐漸呈現，他計劃引導哈比人到西力斯昂哥，讓屍羅殺死他們，他便可獲得魔戒，又開始離間佛羅多與山姆...\n出於好奇的皮聘偷看真知晶球，他看到燃燒中的聖白樹，索倫透過心靈接觸拷問皮聘。甘道夫以此推斷索倫準備進攻米那斯提力斯，於是攜同皮聘趕往警示剛鐸攝政王迪耐瑟二世。前往灰港岸路上的亞玟預見了她和亞拉岡的兒子，她返回瑞文戴爾說服父親，又讓父親重鑄納希爾聖劍...</string>
+
+    <string name="toggle_animation_button">Toggle Animation</string>
+
+    <string name="next">下一部</string>
+    <string name="prev">上一部</string>
+    <string name="prev_home">返回首頁</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp">
+
+    <moe.feng.common.stepperview.VerticalStepperView
+        android:id="@+id/vertical_stepper_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:step_activated_color="#80ADD7"
+        app:step_animation_duration="@android:integer/config_mediumAnimTime"
+        app:step_done_icon="@drawable/ic_done_white_16dp"
+        app:step_line_color="#0ABDA0"
+        app:step_normal_color="#BF9D7A"/>
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+     group: 如果想與Itme互動, 想呈現的效果, 是讓被選中的Item, 可以變色, 表示正在使用該Itme中
+     -->
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/item_vertical_stepper"
+            android:checked="true"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="@string/item_vertical_stepper"/>
+
+        <item
+            android:id="@+id/item_vertical_stepper_adapter"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="@string/item_vertical_stepper_adapter"/>
+    </group>
+
+    <item
+        android:title="如果想了解更多, 可以參考原作者Github">
+
+        <menu>
+            <item
+                android:id="@+id/action_fork_on_github"
+                android:icon="@drawable/ic_open_in_new_black_24dp"
+                android:title="MaterialStepperView"/>
+        </menu>
+    </item>
+</menu>
