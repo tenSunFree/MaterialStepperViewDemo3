@@ -29,9 +29,12 @@ Q2:
 ```
 Error:Failed to resolve: com.android.support:recyclerview-v7:26.0.0
 ```
-A1:
-一般來說, 都可以從原作者提供的資訊上找到最新版本號碼
-![image](http://i.imgur.com/QRYLPhx.jpg)  
+A2:
+因為RecyclerView 從 26.0.0 版本開始不再通過 Android SDK 管理獲取
 ```
-compile 'moe.feng:MaterialStepperView:0.2.1'
+repositories {
+    jcenter()
+    maven { url 'https://maven.google.com' }
+    maven { url "https://jitpack.io" }
+}
 ```
