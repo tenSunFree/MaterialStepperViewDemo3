@@ -30,11 +30,13 @@ Q2:
 Error:Failed to resolve: com.android.support:recyclerview-v7:26.0.0
 ```
 A2:
-因為RecyclerView 從 26.0.0 版本開始不再通過 Android SDK 管理獲取
+因為RecyclerView 從26.0.0版本開始不再通過AndroidSDK管理獲取, 所以要在Project的build.gradle添加以下
 ```
-repositories {
-    jcenter()
-    maven { url 'https://maven.google.com' }
-    maven { url "https://jitpack.io" }
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }                                                    // RecyclerView 從26.0.0版本開始不再通過 Android SDK管理獲取
+        maven { url "https://jitpack.io" }
+    }
 }
 ```
