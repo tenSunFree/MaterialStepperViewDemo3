@@ -23,8 +23,15 @@ A1:
 ![image](http://i.imgur.com/QRYLPhx.jpg)  
 ```
 compile 'moe.feng:MaterialStepperView:0.2.1'
-                               
+```
+      
 Q2:
 ```
 Error:Failed to resolve: com.android.support:recyclerview-v7:26.0.0
+```
+A1:
+一般來說, 都可以從原作者提供的資訊上找到最新版本號碼
+![image](http://i.imgur.com/QRYLPhx.jpg)  
+```
+compile 'moe.feng:MaterialStepperView:0.2.1'
 ```
