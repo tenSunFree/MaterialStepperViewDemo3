@@ -18,3 +18,8 @@ Q1:
 ```
 Error:(30, 13) Failed to resolve: moe.feng:MaterialStepperView:latest-version
 ```
+A1:
+一般來說, 都可以從原作者提供的資訊上找到最新版本號碼
+![image](http://i.imgur.com/QRYLPhx.jpg)  
+```
+compile 'moe.feng:MaterialStepperView:0.2.1'
