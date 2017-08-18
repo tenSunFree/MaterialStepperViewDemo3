@@ -14,4 +14,7 @@ https://github.com/fython/MaterialStepperView
 
 常見問題
 --------
-![image](http://i.imgur.com/7ebm0hA.jpg)  
+Q1:
+```Error:(30, 13) Failed to resolve: moe.feng:MaterialStepperView:latest-version
+<a href="openFile:C:/MaterialStepperViewDemo4/app/build.gradle">Show in File</a><br><a href="open.dependency.in.project.structure">Show in Project Structure dialog</a>
+```
