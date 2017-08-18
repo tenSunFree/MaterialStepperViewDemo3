@@ -23,3 +23,8 @@ A1:
 ![image](http://i.imgur.com/QRYLPhx.jpg)  
 ```
 compile 'moe.feng:MaterialStepperView:0.2.1'
+                               
+Q2:
+```
+Error:Failed to resolve: com.android.support:recyclerview-v7:26.0.0
+```
