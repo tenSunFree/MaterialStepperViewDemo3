@@ -45,13 +45,7 @@ Q3:
 java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
 ```
 A3:
-因為RecyclerView 從26.0.0版本開始不再通過AndroidSDK管理獲取, 所以要在Project的build.gradle添加以下
+在AndroidManifest.xml, application的theme裡面修改成以下
 ```
-allprojects {
-    repositories {
-        jcenter()
-        maven { url 'https://maven.google.com' }                                                    // RecyclerView 從26.0.0版本開始不再通過 Android SDK管理獲取
-        maven { url "https://jitpack.io" }
-    }
-}
+parent="Theme.AppCompat.NoActionBar"
 ```
